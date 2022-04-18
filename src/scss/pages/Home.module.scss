@@ -1,0 +1,23 @@
+.root {
+  padding: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  .cardList {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+  }
+  .loader {
+    font-size: 38px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 60px;
+  }
+}
